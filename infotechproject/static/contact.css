@@ -1,6 +1,7 @@
 .contactbg{
     position: absolute;
     height: 53rem;
+    display: flex;
     width: 120rem;
     z-index: -1;
 }
@@ -72,3 +73,9 @@
     box-shadow: 2px 2px  10px 6px black;
 
 }
+/* @media (min-width:200px)and (max-width:400px){
+    img.contactbg{
+        border: 2rem solid red;
+        display: flex;
+    }
+} */
