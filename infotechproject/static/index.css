@@ -66,7 +66,27 @@
     color: aquamarine;
     box-shadow: 5px 5px 5px aquamarine;
 }
-
+.right li{
+    float: left; 
+    list-style: none;
+}
+ .right{
+    padding-left: 50rem;
+ }
+.right li a{
+    display: block;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    font-size: 25px;
+    text-decoration: none;
+ }
+ .right li a:hover{
+    border: 1px solid aquamarine;
+    color: aquamarine;
+    box-shadow: 5px 5px 5px aquamarine;
+ }
 hr {
     background-color: rgb(242, 246, 245);
     /* box-shadow: 2px 2px 2px 2px rgb(1, 20, 14); */
@@ -156,16 +176,12 @@ hr {
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: 0.89;
-    /* opacity: 0.5; */
     background: url('./bg.jpg');
-    opacity: 0.6;
     background-position: top;
     background-size: cover;
     /* text-decoration: none; */
     /* box-shadow: 3px 3px 3px  white; */
 }
-
 /* our cources section  */
 #services {
     display: block;

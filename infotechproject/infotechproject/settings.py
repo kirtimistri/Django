@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
-
+LOGIN_REDIRECT_URL = 'home'  # Change to the name of the view you want to redirect to after login
+LOGOUT_REDIRECT_URL = 'login'
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
