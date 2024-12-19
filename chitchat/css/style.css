@@ -1,0 +1,126 @@
+body{
+    /* background-color:rgb(2, 19, 49); */
+    height: 100vh;
+    background: linear-gradient(skyblue,rgb(4,114,213),blue,rgb(2, 19, 49));
+    justify-content: center;
+    /* background-image: url('/bg.jpg'); */
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 99%;
+    align-items: center;
+ background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    /* border: 2px solid yellow; */
+    border-radius: 50%;
+    display: block;
+    padding: 20px;
+    height: 85px;
+    margin: auto;
+    width: 90px;
+}
+h1{
+    margin: auto;
+    text-align: center;
+    color:white;
+    text-shadow: 0 0 20px blue;
+    /* text-shadow: 0 0 6px #FF0000, 0 0 6px #0000FF; */
+    /* text-shadow: 2px 2px 8px #FF0000; */
+    font-size: 2em;
+}
+.container{
+    border: 2px solid black;
+    /* box-shadow: 1px 1px 10px 10px rgb(2, 19, 49); */
+    box-shadow:inset 1px 1px 10px 6px blue;
+    background-color: rgb(5, 9, 71);
+    border-radius: 2em;
+    max-width: 1000px;
+
+    margin-top: 30px;
+    overflow-y: auto;
+    height: 65vh;
+}
+.shadow{
+box-shadow: 1px 1px 10px 5px black;
+border-radius: 2em;
+max-width: 1000px;
+height: 65vh;
+margin: auto;
+}
+/* .container img{
+    height:65vh;
+    position: absolute;
+    z-index: -1;
+    max-width: 994px;
+} */
+.massage{
+background-color:white;
+color: white;
+box-shadow: inset 1px 1px 10px 5px rgb(10, 182, 240);
+border: 2px solid black;
+width: auto;
+height: auto;
+margin: 1.3rem;
+padding: 15px;
+font-family:'Times New Roman', Times, serif;
+font-size: 1em;
+font-weight: bold;
+border-radius: 30px;
+}
+.left{
+float: right;
+clear: both;
+background-color: rgb(27, 85, 156);
+}
+.right{
+    float: left;
+    clear: both;
+    background-color: rgb(18, 18, 190);
+}
+#send-container{
+    text-align: center;
+    display:flex;
+ justify-content:space-around;
+    margin: auto;
+    max-width: 994px;
+    width: 100%;
+    margin-bottom: 6vh;
+    gap: 20px;
+}
+#massegeinp{
+height: 30px;
+width: 93%;
+box-shadow: 1px 1px 10px 5px black;
+padding: 5px;
+border: 2px solid blue;
+border-radius: 30rem;
+margin: 30px 2px;
+}
+.btn{
+    height: 3em;
+    border-radius: 20%;
+    width: 4em;
+    cursor: pointer;
+    border: 2px solid blue;
+    margin-top: 30px;
+    
+    padding: 4px 10px;
+    background-color:rgb(2, 19, 49) ;
+    box-shadow: 1px 1px 10px 6px black;
+    color: white;
+} 
+@media (max-width: 1000px) {
+    .container{
+        width: 90vw;
+    }
+    .shadow{
+width: 90vw;
+    }
+    #send-container{
+        width: 90vw;
+        gap: 10px;
+    }}
